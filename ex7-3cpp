@@ -1,0 +1,10 @@
+#include <iostream>
+int add(int a,int b){
+    return a+b;
+}
+int main()
+{
+    int a =9 ,b=8 ;
+    printf("a+b = %d",add(a,b));
+    return 0;
+}
